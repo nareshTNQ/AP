@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" verbose="5">
+
+<!--  <listeners>
+        <listener class-name="Tests.AnnotationTransformer"/>
+  </listeners> -->
+
+  <test name="Live Watch">  
+    <classes>
+      <class name="com.authorportal.ui.Author">
+       <methods>
+		      <include name="Login_Page" />
+		      <include name="Journal_Dashboard"/>
+		      <include name="Article_Dashboard"/>
+		      <include name="Article_Detail_Page"/>
+		      <include name="Logout"/>		    		  
+	   </methods>
+	</class>      
+  </classes>
+  </test> 
+  
+</suite> <!-- Suite -->

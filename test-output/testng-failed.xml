@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="5" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="5" name="Live Watch(failed)">
+    <classes>
+      <class name="com.authorportal.ui.Author">
+        <methods>
+          <include name="getResult"/>
+          <include name="Logout"/>
+          <include name="Article_Dashboard"/>
+          <include name="Login_Page"/>
+          <include name="flush"/>
+          <include name="createTestExtent"/>
+          <include name="reportGenerator"/>
+          <include name="Article_Detail_Page"/>
+          <include name="Journal_Dashboard"/>
+        </methods>
+      </class> <!-- com.authorportal.ui.Author -->
+    </classes>
+  </test> <!-- Live Watch(failed) -->
+</suite> <!-- Failed suite [Suite] -->
